@@ -1,0 +1,396 @@
+/* Top */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 110vh;
+  width: 100%;
+  background-image: url("images/extravagant-pool-party-luxurious-mansion-complete-with-vip-cabanas-dj-booth.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav img {
+  width: 150px;
+}
+.navbar-toggler {
+  background-color: blue;
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.collapse {
+  margin-left: 250px;
+}
+
+.navbar .nav-item {
+  padding-left: 40px;
+  color: white;
+}
+
+.navbar .nav-item #link {
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+.navbar .nav-item #link:hover {
+  border-bottom: 2px solid #fff;
+  font-size: 18px;
+}
+.nav-links ul li a:active {
+  border-bottom: 2px solid #fff;
+  font-weight: 500;
+  color: #0096ff;
+}
+
+@media (max-width: 700px) {
+  .collapse {
+    margin-left: 0px;
+  }
+
+  .navbar .nav-item {
+    padding-left: 40px;
+    color: white;
+    margin-top: 0px;
+  }
+  .navbar .nav-item #link:hover {
+    border-bottom: none;
+  }
+  .nav-links ul li a:active {
+    border-bottom: none;
+    font-weight: 500;
+    color: #0096ff;
+  }
+}
+
+/* Dimon 5 star part */
+
+.dimon {
+  margin-top: 25px;
+  color: white;
+  margin-left: 16%;
+  text-transform: uppercase;
+}
+.dimon h3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  /* text-transform: uppercase; */
+}
+
+
+.hotelname {
+  font-family: "Nunito", sans-serif;
+  
+  font-weight: 700;
+  font-style: normal;
+  font-size: 130px;
+  
+  color: #fff;
+  
+}
+
+.suite {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 65px;
+  letter-spacing: 0.4em;
+}
+
+.dimon p {
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  
+  letter-spacing: 5px;
+}
+
+@media (max-width: 765px) {
+  .dimon {
+    margin-top: 50px;
+    color: white;
+    margin-left: 4%;
+  }
+  .hotelname {
+    font-family: "Nunito", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    
+    color: #fff;
+    
+  }
+  
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  padding: 15px;
+  margin: 20px;
+  color: #fff;
+  text-decoration: none;
+  background: #0096ff;
+
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 15%;
+  width: 15%;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn a img {
+  display: inline-block;
+  padding-right: 10px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+/* .btn:hover { 
+    background-color: rgba(0, 150, 255, 0.7);
+    transition: background-color 0.6s ease-in;
+  }*/
+.scroll {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scroll p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  padding: 6px;
+  margin: 6px;
+  letter-spacing: 0.07em;
+}
+.scroll img {
+  width: 60px;
+  color: #fff;
+}
+
+/* Top Ends here */
+
+/* Body section */
+.fac_head {
+  text-align: center;
+  margin-top: 12px;
+  font-family: "Nunito", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.fac_text {
+  text-align: center;
+  margin: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+figcaption {
+  text-align: center;
+}
+div.box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+div.red {
+  text-align: center;
+  margin-bottom: 40px;
+}
+div.blue {
+  text-align: center;
+  margin-bottom: 40px;
+}
+div.pafd {
+  text-align: center;
+  margin-bottom: 40px;
+}
+div.pink {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 765px) {
+  .box img {
+    border: 1px solid black;
+    width: 650px;
+    height: 450px;
+    margin: 15px 10px;
+  }
+  .red img {
+    width: 650px;
+    height: 450px;
+    margin: 15px 10px;
+  }
+  .blue img {
+    width: 650px;
+    height: 450px;
+    margin: 15px 10px;
+  }
+  .pafd img {
+    width: 650px;
+    height: 450px;
+    margin: 15px 10px;
+  }
+  .pink img {
+    width: 650px;
+    height: 450px;
+    margin: 15px 10px;
+  }
+}
+/* Ends here */
+
+/* Footer */
+.footer {
+  margin-top: 300px;
+  color: white;
+  background-color: black;
+  height: 230px;
+  display: flex;
+  padding-top: 40px;
+  font-size: 16px;
+  justify-content: space-around;
+}
+
+.innerfooter {
+  margin-top: 13px;
+  display: flex;
+}
+
+.innerfootertext ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.innerfootertext ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.innerfootertext2 ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.innerfootertext2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.innerfootertext2 {
+  padding-left: 30px;
+}
+
+.footer2 {
+  display: flex;
+}
+
+.innerfootertext3 {
+  width: 150px;
+}
+
+.innerfootertext3 ul li {
+  list-style: none;
+}
+.innerfootertext4 {
+  margin-left: 100px;
+  width: 340px;
+}
+
+.innerfootertext4 ul li {
+  list-style: none;
+}
+
+.but {
+  background-color: #0096ff;
+  padding: 2px 30px;
+  background-color: #0096ff;
+  border: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    margin-top: 300px;
+    color: white;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    padding-top: 40px;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .innerfootertext2 ul li {
+    list-style: none;
+  }
+  .innerfootertext2 ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer2 {
+    display: block;
+  }
+
+  .innerfootertext4 {
+    margin-top: 130px;
+    margin-left: -400px;
+    width: 340px;
+  }
+}
+
+@media (max-width: 765px) {
+  .footer {
+    margin-top: 300px;
+    color: white;
+    background-color: black;
+    height: 570px;
+    display: block;
+    padding-top: 40px;
+    font-size: 16px;
+    justify-content: space-around;
+    margin-left: -20px;
+  }
+
+  .footer2 {
+    display: block;
+  }
+
+  .innerfootertext4 {
+    margin-left: 0px;
+  }
+
+  .footer2 {
+    display: block;
+  }
+
+  .innerfootertext4 {
+    margin-top: 70px;
+
+    width: 340px;
+  }
+}

@@ -1,0 +1,359 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+
+
+/* Giving the li nav bars a transition of 3.1s and a font size  */
+
+
+  #li{
+    padding-left: 70px;
+    font-size: 20px;
+    transition: 2.1s;   
+}
+
+
+
+/* When overing it,the font size will  be increased by 12px form the original */
+
+#li:hover{
+    text-decoration: underline solid black ;
+    font-size: 34px;  
+}
+
+.header{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+#contact{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 100px;
+
+}
+
+.Fbody{
+    margin-top: 100px;
+}
+
+ .Fbody .kim{
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.Fbody .kim2{
+    font-size: 20px;
+    margin-left: 10%;
+    width: 70%;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none; 
+    color:black;
+}
+
+
+
+.Sbody{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.Sbodyinnner{
+    padding-top: 100px;
+}
+.Sbody .jgg{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+
+}
+.Sbody #paragraph1{
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+
+
+.Sbody .ggg{
+    font-size: 20px;
+    padding-top: 30px;
+}   
+
+.Sbody .ggf{
+    font-size: 20px;
+    padding-top:20px;
+}
+
+
+.input{
+    padding-top: 10px ;
+    width: 70%;
+    font-size: 20px;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #0096ff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 2s;
+
+}
+.button:hover{
+    font-size: 30px;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+@media(max-width:700px){
+    
+.Sbody{
+    margin-left: 5%;
+    margin-top: 100px;
+    display: block;
+    justify-content: space-around;
+}
+
+form{
+    margin-top: 100px;
+}
+
+.input{
+    width: 90%;
+}
+textarea{
+    width: 86%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    margin-top: 330px;
+      color: white;
+      background-color: black;
+      height: 230px;
+      display: flex;
+      padding-top: 40px;
+      font-size: 16px;
+      justify-content: space-around;
+      
+      
+      
+      
+    }
+    
+    
+    .innerfooter{
+      margin-top: 13px;
+      display:flex;
+    
+      
+    
+    }
+    
+    .innerfootertext ul li {
+      list-style: none;
+      padding-bottom: 20px;
+    }
+    
+    
+    .innerfootertext ul li a{
+      text-decoration: none;
+      color: white;
+    }
+    
+    
+    
+    
+    .innerfootertext2 ul li{
+      list-style: none;
+      padding-bottom: 20px;
+    }
+    .innerfootertext2 ul li a{
+      text-decoration: none;
+      color: white;  
+    
+    
+    }
+    
+    
+    .innerfootertext2{
+      padding-left: 30px;
+    }
+    
+    .footer2{
+      display: flex;
+      
+    }
+    
+    .innerfootertext3{
+    width: 150px;
+    
+    }
+    
+    .innerfootertext3 ul li {
+    
+      list-style: none;    
+      
+    }
+    .innerfootertext4{
+    
+      margin-left: 100px;
+      width: 340px;
+      
+      
+    }
+    
+    .innerfootertext4 ul li{
+    
+      list-style: none;
+    }
+    
+    
+    .but{
+      background-color: #0096ff;
+      padding: 2px 30px;
+    }
+    
+    @media(max-width:900px){
+      
+      .footer{
+        margin-top: 300px;
+          color: white;
+          background-color: black;
+          height: 400px;
+          display: flex;
+          padding-top: 40px;
+          font-size: 16px;
+          justify-content: space-around; 
+            
+        }
+    
+        
+        
+        .innerfootertext2 ul li{
+          list-style: none;
+        }
+        .innerfootertext2 ul li a{
+          text-decoration: none;
+          color: white;  
+        
+        
+        }
+        
+        .footer2{
+          display: block;
+          
+        }
+        
+        
+        .innerfootertext4{
+        margin-top: 130px;
+          margin-left: -400px;
+          width: 340px;
+          
+          
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
+    @media(max-width:765px){
+      
+      .footer{
+        margin-top: 300px;
+          color: white;
+          background-color: black;
+          height: 670px;
+          display: block;
+          padding-top: 40px;
+          font-size: 16px;
+          justify-content: space-around;    
+          margin-left: -20px;
+        }
+    
+    
+        
+    .footer2{
+      display: block;
+      
+    }
+    
+    .innerfootertext4{
+    
+      margin-left: 0px;
+      
+    }
+    
+    .footer2{
+      display: block;
+    }
+    
+    .innerfootertext4{
+      margin-top: 70px;
+      
+        width: 340px;
+        
+        
+      }
+      
+    
+    } 
+    
